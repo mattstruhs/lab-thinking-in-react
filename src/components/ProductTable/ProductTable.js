@@ -3,10 +3,9 @@ import ProductRow from '../ProductRow/ProductRow';
 import './ProductTable.css';
 
 export default class ProductTable extends Component {
-    handleCategory = ()=>{
-        console.log("you called handleCategory function")
-    }
-
+  handleCategory = () => {
+    console.log('you called handleCategory function');
+  };
 
   render() {
     return (

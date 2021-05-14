@@ -41,6 +41,11 @@ export default class FilterableProductTable extends Component {
         <div>
           <SearchBar search={this.updateViewFromSearchBar} />
         </div>
+
+        {this.state.products.filter(obj =>{
+            return obj.category === "Sporting Goods"
+        })}
+
         <div>
           <ProductTable products={this.state.products} />
         </div>
